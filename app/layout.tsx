@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={firaSans.className}>
-      <body className={`${firaSans.variable} antialiased`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
