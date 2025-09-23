@@ -1,0 +1,7 @@
+{
+  "name": "puerto-pizza-app",
+  "compatibility_date": "2025-09-23",
+  "assets": {
+    "directory": "./dist"
+  }
+}
