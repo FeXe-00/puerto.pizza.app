@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import isologo from "@/assets/isologo.png";
 
