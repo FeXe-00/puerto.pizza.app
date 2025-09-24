@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import React from "react";
-const Instagram = dynamic(() => import("@mui/icons-material/Instagram"))
+// const Instagram = dynamic(() => import("@mui/icons-material/Instagram"))
 
 
 const Body = () => {
@@ -16,7 +16,7 @@ const Body = () => {
       <button className="">Pedidos Ya</button>
 
       <div onClick={() => window.open(instagramUrl)} className="w-full flex justify-center">
-        <Instagram />
+        {/* <Instagram /> */}
       </div>
     </div>
   );
