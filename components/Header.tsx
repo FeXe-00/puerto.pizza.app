@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="flex items-center">
       <img
-        className="w-[280px] h-[280px]"
+        className="w-auto h-[250px]"
         src={isologo.src}
         alt="Logo Puerto Pizza"
       />
