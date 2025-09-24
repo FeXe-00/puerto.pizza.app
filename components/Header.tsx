@@ -1,16 +1,13 @@
-"use client"
-
-import dynamic from 'next/dynamic'
-import Image from "next/image";
+"use client";
 
 import isologo from "@/assets/isologo.png";
 
 const Header = () => {
   return (
     <div className="flex items-center">
-      <Image
+      <img
         className="w-[280px] h-[280px]"
-        src={isologo}
+        src={isologo.src}
         alt="Logo Puerto Pizza"
       />
     </div>

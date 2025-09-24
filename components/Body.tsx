@@ -1,9 +1,7 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import React from "react";
-// const Instagram = dynamic(() => import("@mui/icons-material/Instagram"))
-
+import { SiInstagram } from "@icons-pack/react-simple-icons";
 
 const Body = () => {
   const instagramUrl =
@@ -15,8 +13,11 @@ const Body = () => {
       <button className="">Take Away</button>
       <button className="">Pedidos Ya</button>
 
-      <div onClick={() => window.open(instagramUrl)} className="w-full flex justify-center">
-        {/* <Instagram /> */}
+      <div
+        onClick={() => window.open(instagramUrl)}
+        className="w-full flex justify-center"
+      >
+        <SiInstagram />
       </div>
     </div>
   );
