@@ -1,7 +1,9 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import React from "react";
-import Instagram from "@mui/icons-material/Instagram";
+const Instagram = dynamic(() => import("@mui/icons-material/Instagram"))
+
 
 const Body = () => {
   const instagramUrl =
