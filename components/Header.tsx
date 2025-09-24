@@ -1,6 +1,8 @@
 "use client"
 
+import dynamic from 'next/dynamic'
 import Image from "next/image";
+
 import isologo from "@/assets/isologo.png";
 
 const Header = () => {
