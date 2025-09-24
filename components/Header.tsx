@@ -1,5 +1,5 @@
 import Image from "next/image";
-import isologo from "@/assets/modified-isologo.png";
+import isologo from "@/assets/isologo.png";
 
 const Header = () => {
   return (
