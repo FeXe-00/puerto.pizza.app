@@ -7,10 +7,20 @@ const Body = () => {
   const instagramUrl =
     "https://www.instagram.com/puertopizza_mza?igsh=OWFsM3pveThjOG02";
 
+  const menuUrl =
+    "https://drive.google.com/file/d/1bO65pcHNS-w20Q1X_LFVeZbGKTUm8IKA/view?usp=sharing";
+
+  const phoneNumber = "2615500624"; // Replace with the full phone number in international format, without '+'
+  const whatsappLink = `https://wa.me/${phoneNumber}`;
+
   return (
     <div className="flex flex-col justify-center gap-5">
-      <button className="">Menu</button>
-      <button className="">Take Away</button>
+      <button onClick={() => window.open(menuUrl)} className="">
+        Menu
+      </button>
+      <button onClick={() => window.open(whatsappLink)} className="">
+        Take Away
+      </button>
       <button className="">Pedidos Ya</button>
 
       <div
