@@ -21,7 +21,7 @@ const Body = () => {
       <button onClick={() => window.open(whatsappLink)} className="">
         Take Away
       </button>
-      <button className="">Pedidos Ya</button>
+      <button disabled={true}>Pedidos Ya</button>
 
       <div
         onClick={() => window.open(instagramUrl)}
